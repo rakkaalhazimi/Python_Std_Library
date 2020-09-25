@@ -1,0 +1,5 @@
+The sqlite3 module implements a Python DB-API 2.08 compliant interface to SQLite, an
+in-process relational database. SQLite is designed to be embedded in applications, instead
+of using a separate database server program such as MySQL, PostgreSQL, or Oracle. It
+is fast, rigorously tested, and flexible, making it suitable for prototyping and production
+deployment for some applications.

@@ -1,0 +1,1 @@
+The itertools module includes a set of functions for working with sequence data sets.

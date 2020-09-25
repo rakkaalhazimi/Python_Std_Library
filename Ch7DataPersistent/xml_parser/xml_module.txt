@@ -1,0 +1,3 @@
+The ElementTree library includes tools for parsing XML using event-based and documentbased
+APIs, searching parsed documents with XPath expressions, and creating new or
+modifying existing documents.

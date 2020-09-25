@@ -1,0 +1,4 @@
+The io module implements the classes behind the interpreter’s built-in open() for file-based
+input and output operations. The classes are decomposed in such a way that they can
+be recombined for alternative purposes—for example, to enable writing Unicode data to a
+network socket.

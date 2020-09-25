@@ -1,0 +1,3 @@
+The time module exposes the time-related functions from the underlying C
+library. It includes functions for retrieving the clock time and the processor run time, as
+well as basic parsing and string formatting tools.

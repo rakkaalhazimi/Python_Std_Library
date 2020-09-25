@@ -1,0 +1,30 @@
+"""
+The time module
+defines struct_time for holding date and time values, with the components being broken
+out so they are easy to access.
+"""
+
+import time
+
+def show_struct(s):
+    print(' tm_year :', s.tm_year)
+    print(' tm_mon :', s.tm_mon)
+    print(' tm_mday :', s.tm_mday)
+    print(' tm_hour :', s.tm_hour)
+    print(' tm_min :', s.tm_min)
+    print(' tm_sec :', s.tm_sec)
+    print(' tm_wday :', s.tm_wday)
+    print(' tm_yday :', s.tm_yday)
+    print(' tm_isdst:', s.tm_isdst)
+
+print('gmtime:')
+show_struct(time.gmtime())
+print('\nlocaltime:')
+show_struct(time.localtime())
+print('\nmktime:', time.mktime(time.localtime()))
+
+"""
+The gmtime() function returns the current time in UTC. localtime() returns the current
+time with the current time zone applied. mktime() takes a struct_time and converts it to
+the floating-point representation.
+"""

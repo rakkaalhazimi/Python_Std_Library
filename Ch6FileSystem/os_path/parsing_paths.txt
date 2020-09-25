@@ -1,0 +1,5 @@
+Path parsing depends on a few variables defined in os (page 1227):
+• os.sep: The separator between portions of the path (e.g., “/” or “\”).
+• os.extsep: The separator between a filename and the file “extension” (e.g., “.”).
+• os.pardir: The path component that means traverse the directory tree up one level (e.g., “..”).
+• os.curdir: The path component that refers to the current directory (e.g., “.”).
