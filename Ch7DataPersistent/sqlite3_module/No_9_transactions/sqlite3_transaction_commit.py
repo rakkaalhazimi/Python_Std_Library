@@ -43,7 +43,7 @@ with sqlite3.connect(db_filename) as conn1:
     conn1.commit()
     print('\nAfter commit:')
     with sqlite3.connect(db_filename) as conn3:
-        show_projects(conn3
+        show_projects(conn3)
 
 """
 When show_projects() is called before conn1 has been committed, the results depend
