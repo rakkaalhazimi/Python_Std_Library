@@ -20,17 +20,17 @@ wrapper.write("ÁÇÊ")
 # Retrive the value written.
 print(output.getvalue())
 
-output.close() # Discard buffer memory.
-
-# Initialize read buffer.
-input = io.BytesIO(
-    b"Initial value for read buffer with unicode characters " +
-    "ÁÇÊ".encode("utf-8")
-)
-wrapper = io.TextIOWrapper(input, encoding="utf-8")
-
-# Read from buffer.
-print(wrapper.read())
+# output.close() # Discard buffer memory.
+#
+# # Initialize read buffer.
+# input = io.BytesIO(
+#     b"Initial value for read buffer with unicode characters " +
+#     "ÁÇÊ".encode("utf-8")
+# )
+# wrapper = io.TextIOWrapper(input, encoding="utf-8")
+#
+# # Read from buffer.
+# print(wrapper.read())
 
 """
 This example uses a BytesIO instance as the stream. Examples for bz2 (page 491),
